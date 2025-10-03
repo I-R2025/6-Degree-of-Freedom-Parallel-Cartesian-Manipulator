@@ -1,0 +1,1357 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+#include "verrsrc.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\6DOFPCM.ico"
+
+IDR_6DOFPCMTYPE   ICON                    "res\\6DOFPCMDoc.ico"
+
+IDI_FILE_VIEW           ICON                    "res\\file_view.ico"
+
+IDI_FILE_VIEW_HC        ICON                    "res\\file_view_hc.ico"
+
+IDI_CLASS_VIEW          ICON                    "res\\class_view.ico"
+
+IDI_CLASS_VIEW_HC       ICON                    "res\\class_view_hc.ico"
+
+IDI_OUTPUT_WND          ICON                    "res\\output_wnd.ico"
+
+IDI_OUTPUT_WND_HC       ICON                    "res\\output_wnd_hc.ico"
+
+IDI_PROPERTIES_WND      ICON                    "res\\properties_wnd.ico"
+
+IDI_PROPERTIES_WND_HC   ICON                    "res\\properties_wnd_hc.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP                  "res\\Toolbar.bmp"
+
+IDR_MAINFRAME_256       BITMAP                  "res\\Toolbar256.bmp"
+
+IDR_SORT                BITMAP                  "res\\sort.bmp"
+
+IDB_SORT_24             BITMAP                  "res\\sort_hc.bmp"
+
+IDB_FILE_VIEW           BITMAP                  "res\\fileview.bmp"
+
+IDB_FILE_VIEW_24        BITMAP                  "res\\fileview_hc.bmp"
+
+IDB_CLASS_VIEW          BITMAP                  "res\\classview.bmp"
+
+IDB_CLASS_VIEW_24       BITMAP                  "res\\classview_hc.bmp"
+
+IDR_EXPLORER            BITMAP                  "res\\explorer.bmp"
+
+IDB_EXPLORER_24         BITMAP                  "res\\explorer_hc.bmp"
+
+IDR_MENU_IMAGES         BITMAP                  "res\\menuimages.bmp"
+
+IDB_MENU_IMAGES_24      BITMAP                  "res\\menuimages_hc.bmp"
+
+IDR_PROPERTIES          BITMAP                  "res\\properties.bmp"
+
+IDB_PROPERTIES_HC       BITMAP                  "res\\properties_hc.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    BUTTON      ID_APP_ABOUT
+END
+
+IDR_MAINFRAME_256 TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    BUTTON      ID_APP_ABOUT
+END
+
+IDR_SORT TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_SORT_MENU
+    BUTTON      ID_NEW_FOLDER
+END
+
+IDR_EXPLORER TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_PROPERTIES
+END
+
+IDR_MENU_IMAGES TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_WINDOW_MANAGER
+    SEPARATOR
+    BUTTON      ID_WINDOW_CASCADE
+    BUTTON      ID_WINDOW_TILE_HORZ
+    BUTTON      ID_TOOLS_MACRO
+    BUTTON      ID_SORTING_SORTALPHABETIC
+    BUTTON      ID_SORTING_SORTBYTYPE
+    BUTTON      ID_SORTING_SORTBYACCESS
+    BUTTON      ID_SORTING_GROUPBYTYPE
+END
+
+IDR_PROPERTIES TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_EXPAND_ALL
+    BUTTON      ID_SORTPROPERTIES
+    BUTTON      ID_PROPERTIES1
+    BUTTON      ID_PROPERTIES2
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New\tCtrl+N",                ID_FILE_NEW
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM "&Save\tCtrl+S",               ID_FILE_SAVE
+        MENUITEM "Save &As...",                 ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Undo\tCtrl+Z",               ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+    END
+    POPUP "&View"
+    BEGIN
+        POPUP "&Toolbars and Docking Windows"
+        BEGIN
+            MENUITEM "<placeholder>",               ID_VIEW_TOOLBAR
+        END
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        POPUP "&Application Look"
+        BEGIN
+            MENUITEM "Windows &2000",               ID_VIEW_APPLOOK_WIN_2000
+            MENUITEM "Office &XP",                  ID_VIEW_APPLOOK_OFF_XP
+            MENUITEM "&Windows XP",                 ID_VIEW_APPLOOK_WIN_XP
+            MENUITEM "Office 200&3",                ID_VIEW_APPLOOK_OFF_2003
+            MENUITEM "Visual Studio 200&5",         ID_VIEW_APPLOOK_VS_2005
+            MENUITEM "Visual Studio 200&8",         ID_VIEW_APPLOOK_VS_2008
+            POPUP "Office 200&7"
+            BEGIN
+                MENUITEM "&Blue Style",                 ID_VIEW_APPLOOK_OFF_2007_BLUE
+                MENUITEM "B&lack Style",                ID_VIEW_APPLOOK_OFF_2007_BLACK
+                MENUITEM "&Silver Style",               ID_VIEW_APPLOOK_OFF_2007_SILVER
+                MENUITEM "&Aqua Style",                 ID_VIEW_APPLOOK_OFF_2007_AQUA
+            END
+        END
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About 6DOFPCM...",     ID_APP_ABOUT
+    END
+END
+
+IDR_POPUP_EDIT MENU
+BEGIN
+    POPUP "Edit"
+    BEGIN
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+    END
+END
+
+IDR_POPUP_SORT MENU
+BEGIN
+    POPUP "Sorting"
+    BEGIN
+        MENUITEM "&Sort Alphabeticaly",         ID_SORTING_SORTALPHABETIC
+        MENUITEM "Sort by &Type",               ID_SORTING_SORTBYTYPE
+        MENUITEM "Sort by Acc&ess",             ID_SORTING_SORTBYACCESS
+        MENUITEM "Group by t&ype",              ID_SORTING_GROUPBYTYPE
+    END
+END
+
+IDR_POPUP_EXPLORER MENU
+BEGIN
+    POPUP "Explorer"
+    BEGIN
+        MENUITEM "&Open",                       ID_OPEN
+        MENUITEM "Open &With....",              ID_OPEN_WITH
+        MENUITEM SEPARATOR
+        MENUITEM "&Compile",                    ID_DUMMY_COMPILE
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Remove",                     ID_EDIT_CLEAR
+        MENUITEM SEPARATOR
+        MENUITEM "&Properties...",              ID_PROPERTIES
+    END
+END
+
+IDR_OUTPUT_POPUP MENU
+BEGIN
+    POPUP "Popup"
+    BEGIN
+        MENUITEM "&Copy",                       ID_EDIT_COPY
+        MENUITEM "&Clear",                      ID_EDIT_CLEAR
+        MENUITEM SEPARATOR
+        MENUITEM "&Hide",                       ID_VIEW_OUTPUTWND
+    END
+END
+
+IDR_HELP_MENU MENU
+BEGIN
+    MENUITEM "&About 6DOFPCM...",     ID_APP_ABOUT
+END
+
+IDR_THEME_MENU MENU
+BEGIN
+    MENUITEM "Office 2007 (&Blue Style)",   ID_VIEW_APPLOOK_OFF_2007_BLUE
+    MENUITEM "Office 2007 (B&lack Style)",  ID_VIEW_APPLOOK_OFF_2007_BLACK
+    MENUITEM "Office 2007 (&Silver Style)", ID_VIEW_APPLOOK_OFF_2007_SILVER
+    MENUITEM "Office 2007 (&Aqua Style)",   ID_VIEW_APPLOOK_OFF_2007_AQUA
+    MENUITEM "Win&dows 7",                  ID_VIEW_APPLOOK_WINDOWS_7
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY 
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 170, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About 6DOFPCM"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,21,20
+    LTEXT           "6DOFPCM, Version 1.0",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2021",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "OK",IDOK,113,41,50,14,WS_GROUP
+END
+
+IDD_6DOFPCM_FORM DIALOGEX 0, 0, 956, 582
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+    GROUPBOX        "CONFIGURATION",IDC_STATIC_config,10,58,252,143,0,WS_EX_DLGMODALFRAME
+    PUSHBUTTON      "Connect",IDC_Connect,92,71,50,48
+    PUSHBUTTON      "Home",IDC_Home,175,76,70,56
+    PUSHBUTTON      "Disconnect",IDC_Disconnect2,29,71,51,48
+    PUSHBUTTON      "Park",IDC_Park,175,141,69,55
+    PUSHBUTTON      "Hold",IDC_Hold_BNL,24,150,27,26
+    PUSHBUTTON      "Hold",IDC_Hold_BEL,92,150,28,27
+    PUSHBUTTON      "Release",IDC_Release_BNL,57,150,28,27
+    PUSHBUTTON      "Release",IDC_Release_BEL,126,150,27,27
+    GROUPBOX        "",IDC_BNL,61,181,12,15,NOT WS_VISIBLE
+    GROUPBOX        "",IDC_BEL,128,181,12,15,NOT WS_VISIBLE
+    GROUPBOX        "STATUS",IDC_STATIC,10,206,252,270,0,WS_EX_DLGMODALFRAME
+    GROUPBOX        "Controllers Status",IDC_STATIC,43,210,72,262,0,WS_EX_DLGMODALFRAME
+    GROUPBOX        "",IDC_STATIC_Master,49,226,18,19,NOT WS_VISIBLE
+    GROUPBOX        "",IDC_STATIC_NS,49,252,18,19,NOT WS_VISIBLE
+    GROUPBOX        "",IDC_STATIC_EW,49,279,18,20,NOT WS_VISIBLE
+    GROUPBOX        "",IDC_STATIC_Elac1,49,309,18,19,NOT WS_VISIBLE
+    GROUPBOX        "",IDC_STATIC_Elac2,49,337,18,20,NOT WS_VISIBLE
+    GROUPBOX        "",IDC_STATIC_Elac3,49,366,18,19,NOT WS_VISIBLE
+    GROUPBOX        "",IDC_STATIC_ETC2,49,394,18,19,NOT WS_VISIBLE
+    GROUPBOX        "",IDC_STATIC_CTC,49,421,18,20,NOT WS_VISIBLE
+    GROUPBOX        "",IDC_STATIC_ETC3,49,447,18,20,NOT WS_VISIBLE
+    GROUPBOX        "Motion / Position Status",IDC_STATIC,119,210,139,262,0,WS_EX_DLGMODALFRAME
+    GROUPBOX        "",IDC_STATIC__motion_NS,127,252,17,19,NOT WS_VISIBLE
+    GROUPBOX        "",IDC_STATIC_motion_EW,127,278,18,19,NOT WS_VISIBLE
+    GROUPBOX        "",IDC_STATIC_motion_Elac1,127,306,18,19,NOT WS_VISIBLE
+    GROUPBOX        "",IDC_STATIC_motion_Elac2,127,336,18,20,NOT WS_VISIBLE
+    GROUPBOX        "",IDC_STATIC_motion_Elac3,127,365,18,20,NOT WS_VISIBLE
+    GROUPBOX        "",IDC_STATIC_motion_ETC2,127,393,18,20,NOT WS_VISIBLE
+    GROUPBOX        "",IDC_STATIC_motion_CTC,127,421,18,20,NOT WS_VISIBLE
+    GROUPBOX        "",IDC_STATIC_motion_ETC3,127,447,18,20,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT1_positionNS,280,482,26,16,ES_AUTOHSCROLL | ES_READONLY | NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT1_positionEW,308,481,26,16,ES_AUTOHSCROLL | ES_READONLY | NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT1_positionElac1,339,481,25,16,ES_AUTOHSCROLL | ES_READONLY | NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT1_positionElac2,368,481,25,16,ES_AUTOHSCROLL | ES_READONLY | NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT1_positionElac3,396,481,26,16,ES_AUTOHSCROLL | ES_READONLY | NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT1_positionETC2,425,481,25,16,ES_AUTOHSCROLL | ES_READONLY | NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT1_positionCTC,452,481,24,16,ES_AUTOHSCROLL | ES_READONLY | NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT1_positionETC3,480,481,23,16,ES_AUTOHSCROLL | ES_READONLY | NOT WS_VISIBLE
+    GROUPBOX        "PM Limit Switches",IDC_STATIC_PM_LS,829,181,113,123,0,WS_EX_DLGMODALFRAME
+    GROUPBOX        "",IDC_XN,879,281,8,11,NOT WS_VISIBLE
+    GROUPBOX        "",IDC_XS,878,202,8,11,NOT WS_VISIBLE
+    GROUPBOX        "",IDC_XE,835,241,8,11,NOT WS_VISIBLE
+    GROUPBOX        "",IDC_XW,930,240,8,11,NOT WS_VISIBLE
+    GROUPBOX        "",IDC_NHP,878,216,8,11,NOT WS_VISIBLE
+    GROUPBOX        "",IDC_EHP,914,240,8,11,NOT WS_VISIBLE
+    GROUPBOX        "",IDC_XURL1,838,422,8,11,NOT WS_VISIBLE
+    GROUPBOX        "LA Limit Switches",IDC_STATIC_LA_LS,829,310,113,136,0,WS_EX_DLGMODALFRAME
+    GROUPBOX        "",IDC_XURL2,878,421,8,12,NOT WS_VISIBLE
+    GROUPBOX        "",IDC_XURL3,923,421,8,11,NOT WS_VISIBLE
+    GROUPBOX        "",IDC_XPGL1,838,335,8,11,NOT WS_VISIBLE
+    GROUPBOX        "",IDC_XPGL2,878,336,8,11,NOT WS_VISIBLE
+    GROUPBOX        "",IDC_XPGL3,916,336,8,11,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT2,275,398,536,73,ES_MULTILINE | ES_AUTOHSCROLL | ES_READONLY,WS_EX_DLGMODALFRAME
+    LTEXT           "Connect",IDC_STATIC_BNL,103,125,26,8
+    LTEXT           "Brake2",IDC_STATIC_BEL,101,186,24,9
+    GROUPBOX        "",IDC_PROJECT_TITLE,220,17,539,31,NOT WS_VISIBLE
+    GROUPBOX        "MESSAGE DISPLAY AREA",IDC_STATIC,272,390,542,85
+    LTEXT           "Master",IDC_STATIC,15,235,34,8
+    LTEXT           "NS",IDC_STATIC,16,260,27,8
+    LTEXT           "EW",IDC_STATIC,16,286,12,8
+    LTEXT           "LA1",IDC_STATIC,16,318,13,8
+    LTEXT           "LA2",IDC_STATIC,16,344,34,8
+    LTEXT           "LA3",IDC_STATIC,16,375,33,8
+    LTEXT           "EET1",IDC_STATIC,16,403,18,8
+    LTEXT           "EET2",IDC_STATIC,15,431,23,8
+    LTEXT           "EET3",IDC_STATIC,16,457,25,8
+    PUSHBUTTON      "",IDC_Reset_Master,84,228,20,18
+    PUSHBUTTON      "",IDC_Reset_NS,84,255,20,18
+    PUSHBUTTON      "",IDC_Reset_EW,84,281,20,18
+    PUSHBUTTON      "",IDC_Reset_ELAC1,84,311,20,18
+    PUSHBUTTON      "",IDC_Reset_Master2,84,340,20,18
+    PUSHBUTTON      "",IDC_Reset_ELAC3,85,368,20,18
+    PUSHBUTTON      "",IDC_Reset_ETC2,84,396,20,18
+    PUSHBUTTON      "",IDC_Reset_CTC,85,424,20,18
+    PUSHBUTTON      "",IDC_Reset_ETC3,85,449,20,18
+    LISTBOX         IDC_LIST1,828,60,49,108,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP,WS_EX_DLGMODALFRAME
+    PUSHBUTTON      "Load Schedule",IDC_Load,880,107,64,61
+    PUSHBUTTON      "CLOSE",IDC_CLOSE,915,449,25,25
+    CONTROL         "",IDC_TAB1,"SysTabControl32",0x0,273,59,543,325
+    PUSHBUTTON      "SignOut",IDC_SignOut,830,454,23,20
+    PUSHBUTTON      "SignIn",IDC_SignIn,883,10,60,18
+    PUSHBUTTON      "X",IDC_remove,875,60,14,12,0,WS_EX_DLGMODALFRAME
+    RTEXT           ".",IDC_UserName,872,561,79,14
+    LTEXT           ".",IDC_UserType,11,481,97,16
+    LTEXT           "LA1-H",IDC_STATIC,833,434,24,8
+    LTEXT           "LA2-H",IDC_STATIC,872,435,24,8
+    LTEXT           "LA3-H",IDC_STATIC,914,435,24,8
+    LTEXT           "LA1-E",IDC_STATIC,834,329,24,8
+    LTEXT           "LA2-E",IDC_STATIC,873,328,24,8
+    LTEXT           "LA3-E",IDC_STATIC,911,328,24,8
+    LTEXT           "N",IDC_STATIC,879,196,11,8
+    LTEXT           "S",IDC_STATIC,881,293,8,8
+    LTEXT           "E",IDC_STATIC,930,234,8,8
+    LTEXT           "W",IDC_STATIC,836,234,13,8
+    LTEXT           "NH",IDC_STATIC,860,220,11,8
+    LTEXT           "EH",IDC_STATIC,911,225,16,8
+    EDITTEXT        IDC_EDIT1,149,258,58,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,149,283,58,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,149,311,57,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT5,150,342,56,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT6,149,371,55,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT7,148,399,55,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT8,149,427,55,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT10,150,453,54,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT11,217,399,32,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT12,217,453,30,13,ES_AUTOHSCROLL
+    LTEXT           "T",IDC_STATIC,208,401,8,8
+    LTEXT           "T",IDC_STATIC,207,455,8,8
+    LTEXT           "Disconnect",IDC_STATIC_BNL4,36,126,34,8
+    LTEXT           "Brake1",IDC_STATIC_BEL2,31,186,23,9
+    LTEXT           "Home",IDC_STATIC_BNL2,200,69,26,8
+    LTEXT           "Park",IDC_STATIC_BNL3,201,134,26,8
+END
+
+IDD_REGISTRATION_DLG DIALOGEX 0, 0, 345, 269
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Registration"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "Verify Password               (Manager)",IDC_STATIC,49,23,59,25
+    LTEXT           "User Type",IDC_STATIC,68,58,37,14
+    LTEXT           "User Name",IDC_STATIC,68,131,37,14
+    LTEXT           "Password",IDC_STATIC,68,163,37,14
+    LTEXT           "Confirm Password",IDC_STATIC,41,202,64,14
+    PUSHBUTTON      "Register",IDC_BUTTON1,127,233,81,17,0,WS_EX_DLGMODALFRAME
+    PUSHBUTTON      "Cancel",IDC_BUTTON2,220,233,81,17,0,WS_EX_DLGMODALFRAME
+    EDITTEXT        IDC_EDIT1,128,21,174,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT8,128,128,174,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT9,128,160,174,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT10,128,199,174,14,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO2,128,55,173,58,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "*",IDC_STATIC,305,26,8,8
+    LTEXT           "*",IDC_STATIC,305,59,8,8
+    LTEXT           "*",IDC_STATIC,306,132,8,8
+    LTEXT           "*",IDC_STATIC,306,164,8,8
+    LTEXT           "*",IDC_STATIC,306,204,8,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "TODO: <Company name>"
+            VALUE "FileDescription", "6DOFPCM"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "6DOFPCM.exe"
+            VALUE "LegalCopyright", "TODO: (c) <Company name>.  All rights reserved."
+            VALUE "OriginalFilename", "6DOFPCM.exe"
+            VALUE "ProductName", "TODO: <Product name>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_6DOFPCM_FORM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 951
+        VERTGUIDE, 490
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 575
+        HORZGUIDE, 168
+    END
+
+    IDD_REGISTRATION_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 338
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 262
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_6DOFPCM_FORM AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_REGISTRATION_DLG AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+IDB_signout             PNG                     "res\\SignOut.png"
+
+IDB_step6               PNG                     "res\\step-6.png"
+
+IDB_Next                PNG                     "res\\Next.png"
+
+IDB_step1               PNG                     "res\\step 1.png"
+
+IDB_step2               PNG                     "res\\step 2.png"
+
+IDB_step3               PNG                     "res\\step 3.png"
+
+IDB_step4               PNG                     "res\\step 4.png"
+
+IDB_step5               PNG                     "res\\step 5.png"
+
+IDB_laststep            PNG                     "res\\laststep.png"
+
+IDB_complete            PNG                     "res\\complete.png"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_REGISTRATION_DLG DLGINIT
+BEGIN
+    IDC_COMBO2, 0x403, 8, 0
+0x614d, 0x616e, 0x6567, 0x0072, 
+    IDC_COMBO2, 0x403, 9, 0
+0x704f, 0x7265, 0x7461, 0x726f, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDP_OLE_INIT_FAILED     "OLE initialization failed.  Make sure that the OLE libraries are the correct version."
+END
+
+STRINGTABLE
+BEGIN
+    IDR_MAINFRAME           "6DOFPCM\n\n6DOFPCM\n6DOFPCM Files (*.k)\n.k\n6DOFPCM.Document\n6DOFPCM.Document"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_APP_TITLE       "6DOFPCM"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_NEW             "Create a new document\nNew"
+    ID_FILE_OPEN            "Open an existing document\nOpen"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save the active document\nSave"
+    ID_FILE_SAVE_AS         "Save the active document with a new name\nSave As"
+END
+
+STRINGTABLE
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+    ID_FILE_MRU_FILE5       "Open this document"
+    ID_FILE_MRU_FILE6       "Open this document"
+    ID_FILE_MRU_FILE7       "Open this document"
+    ID_FILE_MRU_FILE8       "Open this document"
+    ID_FILE_MRU_FILE9       "Open this document"
+    ID_FILE_MRU_FILE10      "Open this document"
+    ID_FILE_MRU_FILE11      "Open this document"
+    ID_FILE_MRU_FILE12      "Open this document"
+    ID_FILE_MRU_FILE13      "Open this document"
+    ID_FILE_MRU_FILE14      "Open this document"
+    ID_FILE_MRU_FILE15      "Open this document"
+    ID_FILE_MRU_FILE16      "Open this document"
+END
+
+STRINGTABLE
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE
+BEGIN
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE
+BEGIN
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle Status Bar"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATUS_PANE1        "Pane 1"
+    IDS_STATUS_PANE2        "Pane 2"
+    IDS_TOOLBAR_STANDARD    "Standard"
+    IDS_TOOLBAR_CUSTOMIZE   "Customize..."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_FILE_VIEW           "File View"
+    IDS_CLASS_VIEW          "Class View"
+    IDS_OUTPUT_WND          "Output"
+    IDS_PROPERTIES_WND      "Properties"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_EXPLORER            "Explorer"
+    IDS_EDIT_MENU           "Edit"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_BUILD_TAB           "Build"
+    IDS_DEBUG_TAB           "Debug"
+    IDS_FIND_TAB            "Find"
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United Kingdom) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENG)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_I_MONOGRAM       BITMAP                  "res\\Logo.bmp"
+
+IDB_P_MONOGRAM       BITMAP                  "res\\monogram.bmp"
+
+IDB_PrgBkgd             BITMAP                  "res\\BkGnd.bmp"
+
+IDB_BKGND               BITMAP                  "res\\NutsLoc.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_LA01_DLG DIALOGEX 0, 0, 784, 312
+STYLE DS_SETFONT | WS_CHILD | WS_SYSMENU
+FONT 8, "Times New Roman", 400, 0, 0x0
+BEGIN
+    PUSHBUTTON      "Move PM",IDC_Move_PM,92,79,74,60
+    EDITTEXT        IDC_EDIT1,86,27,83,12,ES_AUTOHSCROLL
+    LTEXT           "Selected Location:",IDC_STATIC,10,29,70,16
+    LTEXT           "Select Speed:",IDC_STATIC,10,45,72,26
+    GROUPBOX        "PM",IDC_STATIC,4,9,173,134,0,WS_EX_DLGMODALFRAME
+    GROUPBOX        "Steps",IDC_STATIC,179,9,266,134,0,WS_EX_DLGMODALFRAME
+    LTEXT           "Select Speed:",IDC_STATIC,187,29,70,14
+    PUSHBUTTON      "Step I",IDC_step1,185,92,62,32
+    COMBOBOX        IDC_LA01_SS,261,25,174,68,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Location Update",IDC_STATIC,450,9,168,134,0,WS_EX_DLGMODALFRAME
+    PUSHBUTTON      "Update Location",IDC_Update_Locations,460,59,78,76
+    LTEXT           "Password *",IDC_STATIC,460,27,46,8
+    EDITTEXT        IDC_EDIT3,508,25,102,14,ES_PASSWORD | ES_AUTOHSCROLL
+    PUSHBUTTON      "Reset",IDC_Reset_Locations_File,556,91,56,42
+    PUSHBUTTON      "Park LA1",IDC_step2,389,97,44,24
+    PUSHBUTTON      "Step II",IDC_step3,250,92,65,32
+    PUSHBUTTON      "Step III",IDC_step4,318,92,69,32
+    GROUPBOX        "PM  StepTuning ",IDC_STATIC,4,149,125,162,0,WS_EX_DLGMODALFRAME
+    PUSHBUTTON      "<<",IDC_BUTTON5,16,225,19,16
+    PUSHBUTTON      "<",IDC_BUTTON6,33,225,19,16
+    PUSHBUTTON      ">",IDC_BUTTON7,69,225,20,15
+    PUSHBUTTON      ">>",IDC_BUTTON8,87,225,18,15
+    PUSHBUTTON      "^",IDC_BUTTON9,51,205,19,16
+    PUSHBUTTON      "^",IDC_BUTTON10,51,190,19,16
+    PUSHBUTTON      "V",IDC_BUTTON11,51,258,20,16
+    PUSHBUTTON      "v",IDC_BUTTON149,51,243,20,16
+    LTEXT           "N",IDC_STATIC,57,278,8,12
+    LTEXT           "S",IDC_STATIC,59,178,8,12
+    LTEXT           "E",IDC_STATIC,7,229,8,12
+    LTEXT           "W",IDC_STATIC,108,231,8,12
+    GROUPBOX        "PM Fine Tuning",IDC_STATIC,218,149,227,162,0,WS_EX_DLGMODALFRAME
+    LTEXT           "Enter Velocity (rpm) /             Current (mA)",IDC_STATIC,224,177,82,26
+    EDITTEXT        IDC_EDIT4,312,175,125,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "^",IDC_BUTTON150,158,203,17,14
+    PUSHBUTTON      "/",IDC_BUTTON151,157,184,21,18
+    PUSHBUTTON      "V",IDC_BUTTON15,156,257,23,17
+    PUSHBUTTON      "v",IDC_BUTTON157,158,241,19,15
+    LTEXT           "UP",IDC_STATIC,163,172,12,12
+    LTEXT           "DOWN",IDC_STATIC,156,276,24,12
+    GROUPBOX        "LA1 StepTuning ",IDC_STATIC,132,149,82,162,0,WS_EX_DLGMODALFRAME
+    LTEXT           "Select Mode",IDC_STATIC,249,199,56,24
+    LTEXT           "Select Direction",IDC_STATIC,240,229,64,26
+    COMBOBOX        IDC_COMBO3,312,197,125,49,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO4,312,225,125,56,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Move ELAC1",IDC_Move_ELAC1,548,264,62,42
+    GROUPBOX        "LA1 Fine Tuning",IDC_STATIC,450,149,168,162,0,WS_EX_DLGMODALFRAME
+    LTEXT           "Enter Current (mA)",IDC_STATIC,454,177,74,16
+    EDITTEXT        IDC_EDIT5,526,175,84,12,ES_AUTOHSCROLL
+    LTEXT           "Select Direction",IDC_STATIC,462,199,66,20
+    COMBOBOX        IDC_COMBO6,526,197,84,71,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Move PM",IDC_Move_ELAC2,375,265,62,42
+    PUSHBUTTON      "Next",IDC_Next,620,266,64,39
+    COMBOBOX        IDC_COMBO5,86,43,83,45,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT2,261,42,174,12,ES_AUTOHSCROLL
+    LTEXT           "Static",IDC_STATIC,188,43,18,8
+END
+
+IDD_EET03_DLG DIALOGEX 0, 0, 861, 386
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+EXSTYLE WS_EX_CONTROLPARENT
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Move PM",IDC_Move_PM,106,78,74,63
+    EDITTEXT        IDC_EDIT1,85,21,97,13,ES_AUTOHSCROLL
+    LTEXT           "Selected Location:",IDC_STATIC,11,23,69,16
+    LTEXT           "Select Speed:",IDC_STATIC,10,40,71,28
+    COMBOBOX        IDC_COMBO1,85,40,97,41,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "PM",IDC_STATIC,3,3,187,153,0,WS_EX_DLGMODALFRAME
+    GROUPBOX        "Defueling Steps",IDC_STATIC,192,3,245,154,0,WS_EX_DLGMODALFRAME
+    PUSHBUTTON      "Open",IDC_MoveLA2tosafelimit,280,17,68,28
+    GROUPBOX        "Location Update",IDC_STATIC,438,3,130,154,0,WS_EX_DLGMODALFRAME
+    PUSHBUTTON      "Update Location",IDC_Update_Location_File,447,75,62,63
+    LTEXT           "Password *",IDC_STATIC,444,22,45,9
+    EDITTEXT        IDC_EDIT3,486,19,77,14,ES_PASSWORD | ES_AUTOHSCROLL
+    PUSHBUTTON      "Reset",IDC_Reset_Location_File,518,107,43,30
+    GROUPBOX        "PM  StepTuning ",IDC_STATIC,3,160,137,145,0,WS_EX_DLGMODALFRAME
+    PUSHBUTTON      "<<",IDC_BUTTON5,19,223,21,19
+    PUSHBUTTON      "<",IDC_BUTTON6,40,223,20,19
+    PUSHBUTTON      ">",IDC_BUTTON7,81,223,22,19
+    PUSHBUTTON      ">>",IDC_BUTTON8,103,223,21,19
+    PUSHBUTTON      "^",IDC_BUTTON9,58,204,22,17
+    PUSHBUTTON      "/",IDC_BUTTON10,58,185,22,19
+    PUSHBUTTON      "V",IDC_BUTTON11,58,263,23,19
+    PUSHBUTTON      "v",IDC_BUTTON149,58,245,22,18
+    LTEXT           "N",IDC_STATIC,67,284,8,12
+    LTEXT           "S",IDC_STATIC,65,175,8,8
+    LTEXT           "E",IDC_STATIC,11,229,8,12
+    LTEXT           "W",IDC_STATIC,127,229,8,12
+    GROUPBOX        "PM Fine Tuning",IDC_STATIC,140,160,172,146,0,WS_EX_DLGMODALFRAME
+    LTEXT           "Enter Velocity (rpm) /             Current (mA)",IDC_STATIC,143,182,81,28
+    EDITTEXT        IDC_EDIT4,217,180,88,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "^",IDC_BUTTON150,583,56,22,16
+    PUSHBUTTON      "/",IDC_BUTTON151,583,37,23,19
+    PUSHBUTTON      "V",IDC_BUTTON15,581,108,24,19
+    PUSHBUTTON      "v",IDC_BUTTON157,582,90,22,18
+    LTEXT           "UP",IDC_STATIC,591,23,11,12
+    LTEXT           "DOWN",IDC_STATIC,583,129,29,12
+    GROUPBOX        "LA3 StepTuning ",IDC_STATIC,571,2,45,155,0,WS_EX_DLGMODALFRAME
+    LTEXT           "Select Mode",IDC_STATIC,167,205,55,26
+    LTEXT           "Select Direction",IDC_STATIC,159,236,64,28
+    COMBOBOX        IDC_COMBO3,217,203,88,56,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO4,217,234,88,44,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Move",IDC_Move_ELAC2FT,547,248,62,44
+    GROUPBOX        "LA3 / EET3  Fine Tuning",IDC_STATIC,460,159,155,148,0,WS_EX_DLGMODALFRAME
+    LTEXT           "Enter Current (mA)",IDC_STATIC,466,206,73,17
+    EDITTEXT        IDC_EDIT5,533,204,74,13,ES_AUTOHSCROLL
+    LTEXT           "Select Direction",IDC_STATIC,475,230,65,22
+    COMBOBOX        IDC_COMBO6,533,228,75,49,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Move PM",IDC_Move_PmFT,241,249,62,44
+    PUSHBUTTON      "Process Complete",IDC_Next,717,144,48,39,BS_MULTILINE
+    LTEXT           "Select Tool",IDC_STATIC,490,182,38,17
+    COMBOBOX        IDC_COMBO2,532,178,77,40,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Synchronize Motion Fine Tuning",IDC_STATIC,314,159,143,147,0,WS_EX_DLGMODALFRAME
+    PUSHBUTTON      "Move",IDC_Move_ELAC2FT2,388,248,62,44
+    LTEXT           "Enter (rev)",IDC_STATIC,320,180,37,17
+    EDITTEXT        IDC_EDIT6,357,179,93,12,ES_AUTOHSCROLL
+    LTEXT           "Select Direction",IDC_STATIC,325,204,31,22
+    COMBOBOX        IDC_COMBO7,357,202,95,71,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Move to Safe Position",IDC_MoveLA2tosafelimit2,201,45,71,28,BS_MULTILINE
+    PUSHBUTTON      "Close Nut",IDC_MoveLA2tosafelimit3,201,79,70,28
+    PUSHBUTTON      "Grip Nut",IDC_MoveLA2tosafelimit5,281,60,67,28
+    PUSHBUTTON      "Park",IDC_MoveLA2tosafelimit6,287,104,48,39
+    PUSHBUTTON      "Move to Safe Position",IDC_MoveLA2tosafelimit8,356,46,72,27,BS_MULTILINE
+    PUSHBUTTON      "Open Nut",IDC_MoveLA2tosafelimit9,357,79,71,27
+END
+
+IDD_EET02_DLG DIALOGEX 0, 0, 777, 315
+STYLE DS_SETFONT | WS_CHILD | WS_SYSMENU
+EXSTYLE WS_EX_CONTROLPARENT
+FONT 8, "Times New Roman", 400, 0, 0x0
+BEGIN
+    PUSHBUTTON      "Move PM",IDC_Move_PM,99,78,74,59
+    EDITTEXT        IDC_EDIT1,91,25,83,12,ES_AUTOHSCROLL
+    LTEXT           "Selected Location:",IDC_STATIC,17,27,69,15
+    LTEXT           "Select Speed:",IDC_STATIC,16,43,71,26
+    COMBOBOX        IDC_COMBO1,91,42,83,41,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "PM",IDC_STATIC,9,8,171,134,0,WS_EX_DLGMODALFRAME
+    GROUPBOX        "Defueling Steps",IDC_STATIC,183,8,238,134,0,WS_EX_DLGMODALFRAME
+    LTEXT           "Select Speed:",IDC_STATIC,191,27,70,14
+    PUSHBUTTON      "Step I",IDC_MoveLA2tosafelimit,189,88,58,30
+    COMBOBOX        IDC_LA01_SS,265,24,147,60,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Location Update",IDC_STATIC,426,8,170,134,0,WS_EX_DLGMODALFRAME
+    PUSHBUTTON      "Update Location",IDC_Update_Location_File,436,57,77,75
+    LTEXT           "Password *",IDC_STATIC,436,26,45,8
+    EDITTEXT        IDC_EDIT3,484,23,101,13,ES_PASSWORD | ES_AUTOHSCROLL
+    PUSHBUTTON      "Reset",IDC_Reset_Location_File,531,88,55,43
+    PUSHBUTTON      "LA2",IDC_HOME_ELAC2,370,92,38,25
+    PUSHBUTTON      "Step II",IDC_RotateNut,249,88,57,30
+    PUSHBUTTON      "Step III",IDC_ROTATE_ETC2,308,88,59,30
+    GROUPBOX        "PM  StepTuning ",IDC_STATIC,9,146,140,162,0,WS_EX_DLGMODALFRAME
+    PUSHBUTTON      "<<",IDC_BUTTON5,19,221,21,19
+    PUSHBUTTON      "<",IDC_BUTTON6,39,221,23,18
+    PUSHBUTTON      ">",IDC_BUTTON7,88,221,22,19
+    PUSHBUTTON      ">>",IDC_BUTTON8,109,221,21,19
+    PUSHBUTTON      "^",IDC_BUTTON9,62,202,22,16
+    PUSHBUTTON      "",IDC_BUTTON10,62,184,23,19
+    PUSHBUTTON      "V",IDC_BUTTON11,62,257,23,16
+    PUSHBUTTON      "v",IDC_BUTTON149,62,240,23,18
+    LTEXT           "N",IDC_STATIC,66,277,8,11
+    LTEXT           "S",IDC_STATIC,68,173,8,11
+    LTEXT           "E",IDC_STATIC,13,227,8,11
+    LTEXT           "W",IDC_STATIC,137,227,8,11
+    GROUPBOX        "PM Fine Tuning",IDC_STATIC,216,146,212,162,0,WS_EX_DLGMODALFRAME
+    LTEXT           "Enter Velocity (rpm) /             Current (mA)",IDC_STATIC,225,174,81,26
+    EDITTEXT        IDC_EDIT4,313,172,105,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "^",IDC_BUTTON150,171,204,21,17
+    PUSHBUTTON      "",IDC_BUTTON151,170,184,25,21
+    PUSHBUTTON      "V",IDC_BUTTON15,168,254,27,21
+    PUSHBUTTON      "v",IDC_BUTTON157,171,237,21,17
+    LTEXT           "UP",IDC_STATIC,178,172,11,11
+    LTEXT           "DOWN",IDC_STATIC,170,277,23,11
+    GROUPBOX        "LA2 StepTuning ",IDC_STATIC,152,146,61,162,0,WS_EX_DLGMODALFRAME
+    LTEXT           "Select Mode",IDC_STATIC,249,196,55,24
+    LTEXT           "Select Direction",IDC_STATIC,241,225,64,26
+    COMBOBOX        IDC_COMBO3,313,194,105,47,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO4,313,223,105,44,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Move",IDC_Move_ELAC2FT,530,263,62,41
+    GROUPBOX        "LA2 / EET2  Fine Tuning",IDC_STATIC,431,146,167,162,0,WS_EX_DLGMODALFRAME
+    LTEXT           "Enter Current (mA)",IDC_STATIC,436,197,73,16
+    EDITTEXT        IDC_EDIT5,508,195,83,12,ES_AUTOHSCROLL
+    LTEXT           "Select Direction",IDC_STATIC,445,219,65,20
+    COMBOBOX        IDC_COMBO6,508,217,83,53,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Move PM",IDC_Move_PmFT,355,259,62,41
+    PUSHBUTTON      "Next",IDC_Next,602,261,73,43
+    LTEXT           "Select Tool",IDC_STATIC,460,174,38,16
+    COMBOBOX        IDC_COMBO2,506,171,86,54,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_Schedule_DLG DIALOGEX 0, 0, 734, 290
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+EXSTYLE WS_EX_CONTROLPARENT
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "26-D",IDC_BUTTON4,133,91,27,10
+    PUSHBUTTON      "24-D",IDC_BUTTON5,133,107,26,10
+    PUSHBUTTON      "22-D",IDC_BUTTON6,133,124,25,10
+    PUSHBUTTON      "20-D",IDC_BUTTON7,133,139,26,10
+    PUSHBUTTON      "18-D",IDC_BUTTON8,133,154,26,10
+    PUSHBUTTON      "16-D",IDC_BUTTON9,133,170,27,10
+    PUSHBUTTON      "14-D",IDC_BUTTON10,133,184,26,10
+    PUSHBUTTON      "12-D",IDC_BUTTON11,133,197,27,10
+    PUSHBUTTON      "26-F",IDC_BUTTON21,160,100,26,8
+    PUSHBUTTON      "24-F",IDC_BUTTON22,159,116,26,8
+    PUSHBUTTON      "22-F",IDC_BUTTON23,159,131,27,8
+    PUSHBUTTON      "20-F",IDC_BUTTON24,159,146,26,9
+    PUSHBUTTON      "16-F",IDC_BUTTON25,160,177,26,8
+    PUSHBUTTON      "14-F",IDC_BUTTON26,160,191,26,9
+    PUSHBUTTON      "22-H",IDC_BUTTON43,213,131,26,8
+    PUSHBUTTON      "20-H",IDC_BUTTON48,213,146,27,8
+    PUSHBUTTON      "20-K",IDC_BUTTON63,267,145,27,8
+    PUSHBUTTON      "18-K",IDC_BUTTON64,266,161,28,10
+    PUSHBUTTON      "20-M",IDC_BUTTON90,322,144,26,9
+    PUSHBUTTON      "18-M",IDC_BUTTON91,322,161,26,9
+    PUSHBUTTON      "18-R",IDC_BUTTON136,430,160,28,8
+    PUSHBUTTON      "16-R",IDC_BUTTON137,430,177,29,8
+    PUSHBUTTON      "14-R",IDC_BUTTON138,430,192,29,9
+    PUSHBUTTON      "12-R",IDC_BUTTON139,430,207,29,9
+    PUSHBUTTON      "Highlight schedule",IDC_BUTTON158,524,16,73,28,0,WS_EX_DLGMODALFRAME
+    PUSHBUTTON      "17-L",IDC_BUTTON76,296,169,26,8
+    PUSHBUTTON      "19-L",IDC_BUTTON75,296,152,26,9
+    PUSHBUTTON      "21-L",IDC_BUTTON79,296,137,25,8
+    PUSHBUTTON      "23-G",IDC_BUTTON32,187,124,26,8
+    PUSHBUTTON      "21-G",IDC_BUTTON33,187,139,26,8
+    PUSHBUTTON      "19-G",IDC_BUTTON38,187,154,26,8
+    PUSHBUTTON      "10-R",IDC_BUTTON140,430,222,30,8
+    PUSHBUTTON      "14-T",IDC_BUTTON155,486,191,27,10
+    PUSHBUTTON      "12-T",IDC_BUTTON156,486,207,27,9
+    PUSHBUTTON      "15-S",IDC_BUTTON146,458,184,29,9
+    PUSHBUTTON      "13-S",IDC_BUTTON147,458,199,29,10
+    PUSHBUTTON      "11-S",IDC_BUTTON148,458,214,28,9
+END
+
+IDD_LOGIN_DLG DIALOGEX 0, 0, 341, 277
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Account Verification"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    COMBOBOX        IDC_COMBO1,95,37,197,50,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT1,95,89,198,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT7,95,116,198,12,ES_PASSWORD | ES_AUTOHSCROLL
+    LTEXT           "User Type :",IDC_STATIC,40,38,38,8
+    LTEXT           "User Name :",IDC_STATIC,40,91,40,8
+    LTEXT           "Password :",IDC_STATIC,40,119,36,8
+    LTEXT           "*",IDC_STATIC,297,41,8,8
+    LTEXT           "*",IDC_STATIC,298,93,8,8
+    LTEXT           "*",IDC_STATIC,297,120,8,8
+    GROUPBOX        "Account Details",IDC_STATIC,25,20,290,168,0,WS_EX_DLGMODALFRAME
+    PUSHBUTTON      "Sign In",IDC_BUTTON1,96,159,65,17,0,WS_EX_DLGMODALFRAME
+    PUSHBUTTON      "Sign Out",IDC_BUTTON2,228,158,65,17,0,WS_EX_DLGMODALFRAME
+    PUSHBUTTON      "Register",IDC_BUTTON3,227,245,65,17,0,WS_EX_DLGMODALFRAME
+    LTEXT           "Go register yourself first !!!",IDC_STATIC,134,250,92,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_LA01_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 777
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 305
+    END
+
+    IDD_EET03_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 854
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 379
+    END
+
+    IDD_EET02_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 770
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 308
+    END
+
+    IDD_Schedule_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 727
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 283
+    END
+
+    IDD_LOGIN_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 334
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 270
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_LA01_DLG AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_EET03_DLG AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_EET02_DLG AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_Schedule_DLG AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_LOGIN_DLG AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+IDB_BrakeHold           PNG                     "res\\BrakeHold.png"
+
+IDB_BrakeRelease        PNG                     "res\\BrakeRelease.png"
+
+IDB_CloseComm           PNG                     "res\\CloseComm.png"
+
+IDB_StartComm           PNG                     "res\\Comm.png"
+
+IDB_Reset               PNG                     "res\\Reset.png"
+
+IDB_LoadSchedule        PNG                     "res\\LoadSchedule.png"
+
+IDB_Home                PNG                     "res\\HomePM.png"
+
+IDB_Park                PNG                     "res\\ParkPM.png"
+
+IDB_Close               PNG                     "res\\close.png"
+
+IDB_move_PM             PNG                     "res\\movePM.png"
+
+IDB_move                PNG                     "res\\startmoving.png"
+
+IDB_LA_downward         PNG                     "res\\LA_Down.png"
+
+IDB_LA_Down             PNG                     "res\\Down.png"
+
+IDB_LA_upward           PNG                     "res\\LA1_upward.png"
+
+IDB_LA_up               PNG                     "res\\Up.png"
+
+IDB_UpdateList          PNG                     "res\\Update.png"
+
+IDB_ResetLocations      PNG                     "res\\ResetLocations.png"
+
+IDB_move_left           PNG                     "res\\move Left.png"
+
+IDB_move_right          PNG                     "res\\move Right.png"
+
+IDB_Move_UP             PNG                     "res\\move Up.png"
+
+IDB_move_down           PNG                     "res\\move Down.png"
+
+IDB_st_be               PNG                     "res\\left-Arrow.png"
+
+IDB_st_bw               PNG                     "res\\right-Arrow.png"
+
+IDB_st_bn               PNG                     "res\\down-Arrow.png"
+
+IDB_st_bs               PNG                     "res\\Up-Arrow.png"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_LA01_DLG DLGINIT
+BEGIN
+    IDC_LA01_SS, 0x403, 5, 0
+0x6146, 0x7473, "\000" 
+    IDC_LA01_SS, 0x403, 7, 0
+0x654d, 0x6964, 0x6d75, "\000" 
+    IDC_LA01_SS, 0x403, 5, 0
+0x6c53, 0x776f, "\000" 
+    IDC_COMBO3, 0x403, 22, 0
+0x7250, 0x666f, 0x6c69, 0x2065, 0x6556, 0x6f6c, 0x6963, 0x7974, 0x4d20, 
+0x646f, 0x0065, 
+    IDC_COMBO3, 0x403, 13, 0
+0x7543, 0x7272, 0x6e65, 0x2074, 0x6f4d, 0x6564, "\000" 
+    IDC_COMBO4, 0x403, 6, 0
+0x6f4e, 0x7472, 0x0068, 
+    IDC_COMBO4, 0x403, 6, 0
+0x6f53, 0x7475, 0x0068, 
+    IDC_COMBO4, 0x403, 5, 0
+0x6145, 0x7473, "\000" 
+    IDC_COMBO4, 0x403, 5, 0
+0x6557, 0x7473, "\000" 
+    IDC_COMBO6, 0x403, 3, 0
+0x7055, "\000" 
+    IDC_COMBO6, 0x403, 5, 0
+0x6f44, 0x6e77, "\000" 
+    IDC_COMBO5, 0x403, 5, 0
+0x6146, 0x7473, "\000" 
+    IDC_COMBO5, 0x403, 7, 0
+0x654d, 0x6964, 0x6d75, "\000" 
+    IDC_COMBO5, 0x403, 5, 0
+0x6c53, 0x776f, "\000" 
+    0
+END
+
+IDD_EET02_DLG DLGINIT
+BEGIN
+    IDC_COMBO1, 0x403, 5, 0
+0x6146, 0x7473, "\000" 
+    IDC_COMBO1, 0x403, 7, 0
+0x654d, 0x6964, 0x6d75, "\000" 
+    IDC_COMBO1, 0x403, 5, 0
+0x6c53, 0x776f, "\000" 
+    IDC_LA01_SS, 0x403, 5, 0
+0x6146, 0x7473, "\000" 
+    IDC_LA01_SS, 0x403, 7, 0
+0x654d, 0x6964, 0x6d75, "\000" 
+    IDC_LA01_SS, 0x403, 5, 0
+0x6c53, 0x776f, "\000" 
+    IDC_COMBO3, 0x403, 13, 0
+0x7543, 0x7272, 0x6e65, 0x2074, 0x6f4d, 0x6564, "\000" 
+    IDC_COMBO3, 0x403, 22, 0
+0x7250, 0x666f, 0x6c69, 0x2065, 0x6556, 0x6f6c, 0x6963, 0x7974, 0x4d20, 
+0x646f, 0x0065, 
+    IDC_COMBO4, 0x403, 6, 0
+0x6f4e, 0x7472, 0x0068, 
+    IDC_COMBO4, 0x403, 6, 0
+0x6f53, 0x7475, 0x0068, 
+    IDC_COMBO4, 0x403, 5, 0
+0x6145, 0x7473, "\000" 
+    IDC_COMBO4, 0x403, 5, 0
+0x6557, 0x7473, "\000" 
+    IDC_COMBO6, 0x403, 3, 0
+0x7055, "\000" 
+    IDC_COMBO6, 0x403, 5, 0
+0x6f44, 0x6e77, "\000" 
+    IDC_COMBO6, 0x403, 6, 0
+0x6c43, 0x736f, 0x0065, 
+    IDC_COMBO6, 0x403, 5, 0
+0x704f, 0x6e65, "\000" 
+    IDC_COMBO2, 0x403, 6, 0
+0x4c45, 0x4341, 0x0032, 
+    IDC_COMBO2, 0x403, 5, 0
+0x5445, 0x3243, "\000" 
+    0
+END
+
+IDD_EET03_DLG DLGINIT
+BEGIN
+    IDC_COMBO1, 0x403, 5, 0
+0x6146, 0x7473, "\000" 
+    IDC_COMBO1, 0x403, 7, 0
+0x654d, 0x6964, 0x6d75, "\000" 
+    IDC_COMBO1, 0x403, 5, 0
+0x6c53, 0x776f, "\000" 
+    IDC_COMBO3, 0x403, 13, 0
+0x7543, 0x7272, 0x6e65, 0x2074, 0x6f4d, 0x6564, "\000" 
+    IDC_COMBO3, 0x403, 22, 0
+0x7250, 0x666f, 0x6c69, 0x2065, 0x6556, 0x6f6c, 0x6963, 0x7974, 0x4d20, 
+0x646f, 0x0065, 
+    IDC_COMBO4, 0x403, 6, 0
+0x6f4e, 0x7472, 0x0068, 
+    IDC_COMBO4, 0x403, 6, 0
+0x6f53, 0x7475, 0x0068, 
+    IDC_COMBO4, 0x403, 5, 0
+0x6145, 0x7473, "\000" 
+    IDC_COMBO4, 0x403, 5, 0
+0x6557, 0x7473, "\000" 
+    IDC_COMBO6, 0x403, 3, 0
+0x7055, "\000" 
+    IDC_COMBO6, 0x403, 5, 0
+0x6f44, 0x6e77, "\000" 
+    IDC_COMBO6, 0x403, 8, 0
+0x754f, 0x7774, 0x7261, 0x0064, 
+    IDC_COMBO6, 0x403, 7, 0
+0x6e49, 0x6177, 0x6472, "\000" 
+    IDC_COMBO2, 0x403, 6, 0
+0x4c45, 0x4341, 0x0033, 
+    IDC_COMBO2, 0x403, 4, 0
+0x5443, 0x0043, 
+    IDC_COMBO7, 0x403, 6, 0
+0x6c43, 0x736f, 0x0065, 
+    IDC_COMBO7, 0x403, 5, 0
+0x704f, 0x6e65, "\000" 
+    0
+END
+
+IDD_LOGIN_DLG DLGINIT
+BEGIN
+    IDC_COMBO1, 0x403, 8, 0
+0x614d, 0x616e, 0x6567, 0x0072, 
+    IDC_COMBO1, 0x403, 9, 0
+0x704f, 0x7265, 0x7461, 0x726f, "\000" 
+    0
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "#include ""verrsrc.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#include ""res\\6DOFPCM.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""      // Standard components\r\n"
+    "#if !defined(_AFXDLL)\r\n"
+    "#include ""afxprint.rc""        // printing/print preview resources\r\n"
+    "#include ""afxribbon.rc""        // MFC ribbon and control bar resources\r\n"
+    "#endif\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (United Kingdom) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#include "res\6DOFPCM.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"      // Standard components
+#if !defined(_AFXDLL)
+#include "afxprint.rc"        // printing/print preview resources
+#include "afxribbon.rc"        // MFC ribbon and control bar resources
+#endif
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

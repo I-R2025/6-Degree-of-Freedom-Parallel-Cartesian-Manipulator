@@ -1,0 +1,43 @@
+﻿  6DOFPCM.cpp
+  6DOFPCMDoc.cpp
+  6DOFPCMView.cpp
+D:\OP\Backup Windows150\6DOFPCM\6DOFPCM\6DOFPCM\6DOFPCMView.cpp(3700,47): warning C4244: '=': conversion from 'long' to 'float', possible loss of data
+D:\OP\Backup Windows150\6DOFPCM\6DOFPCM\6DOFPCM\6DOFPCMView.cpp(3842,47): warning C4244: '=': conversion from 'long' to 'float', possible loss of data
+D:\OP\Backup Windows150\6DOFPCM\6DOFPCM\6DOFPCM\6DOFPCMView.cpp(4418,20): warning C4101: 'pWnd': unreferenced local variable
+  ClassView.cpp
+  EET02Dlg.cpp
+D:\OP\Backup Windows150\6DOFPCM\6DOFPCM\6DOFPCM\EET02Dlg.cpp(193,40): warning C4244: '=': conversion from 'double' to 'LONG', possible loss of data
+D:\OP\Backup Windows150\6DOFPCM\6DOFPCM\6DOFPCM\EET02Dlg.cpp(321,40): warning C4244: '=': conversion from 'double' to 'LONG', possible loss of data
+D:\OP\Backup Windows150\6DOFPCM\6DOFPCM\6DOFPCM\EET02Dlg.cpp(2181,55): warning C4244: 'argument': conversion from 'long' to 'short', possible loss of data
+D:\OP\Backup Windows150\6DOFPCM\6DOFPCM\6DOFPCM\EET02Dlg.cpp(2221,52): warning C4244: 'argument': conversion from 'long' to 'short', possible loss of data
+D:\OP\Backup Windows150\6DOFPCM\6DOFPCM\6DOFPCM\EET02Dlg.cpp(2261,55): warning C4244: 'argument': conversion from 'long' to 'short', possible loss of data
+D:\OP\Backup Windows150\6DOFPCM\6DOFPCM\6DOFPCM\EET02Dlg.cpp(2301,52): warning C4244: 'argument': conversion from 'long' to 'short', possible loss of data
+  EET03Dlg.cpp
+D:\OP\Backup Windows150\6DOFPCM\6DOFPCM\6DOFPCM\EET03Dlg.cpp(768,48): warning C4244: '=': conversion from 'long' to 'float', possible loss of data
+D:\OP\Backup Windows150\6DOFPCM\6DOFPCM\6DOFPCM\EET03Dlg.cpp(1188,48): warning C4244: '=': conversion from 'long' to 'float', possible loss of data
+D:\OP\Backup Windows150\6DOFPCM\6DOFPCM\6DOFPCM\EET03Dlg.cpp(2471,55): warning C4244: 'argument': conversion from 'long' to 'short', possible loss of data
+D:\OP\Backup Windows150\6DOFPCM\6DOFPCM\6DOFPCM\EET03Dlg.cpp(2510,52): warning C4244: 'argument': conversion from 'long' to 'short', possible loss of data
+D:\OP\Backup Windows150\6DOFPCM\6DOFPCM\6DOFPCM\EET03Dlg.cpp(2549,55): warning C4244: 'argument': conversion from 'long' to 'short', possible loss of data
+D:\OP\Backup Windows150\6DOFPCM\6DOFPCM\6DOFPCM\EET03Dlg.cpp(2588,52): warning C4244: 'argument': conversion from 'long' to 'short', possible loss of data
+D:\OP\Backup Windows150\6DOFPCM\6DOFPCM\6DOFPCM\EET03Dlg.cpp(2769,49): warning C4244: '=': conversion from 'long' to 'float', possible loss of data
+D:\OP\Backup Windows150\6DOFPCM\6DOFPCM\6DOFPCM\EET03Dlg.cpp(3009,49): warning C4244: '=': conversion from 'long' to 'float', possible loss of data
+D:\OP\Backup Windows150\6DOFPCM\6DOFPCM\6DOFPCM\EET03Dlg.cpp(3178,52): warning C4244: 'argument': conversion from 'long' to 'short', possible loss of data
+  FileView.cpp
+  LA01Dlg.cpp
+D:\OP\Backup Windows150\6DOFPCM\6DOFPCM\6DOFPCM\LA01Dlg.cpp(2281,50): warning C4244: 'argument': conversion from 'long' to 'short', possible loss of data
+  LoginDlg.cpp
+  MainFrm.cpp
+  OutputWnd.cpp
+  PropertiesWnd.cpp
+  RegistrationDlg.cpp
+  ScheduleDlg.cpp
+D:\OP\Backup Windows150\6DOFPCM\6DOFPCM\6DOFPCM\ScheduleDlg.cpp(103,20): warning C4101: 'pWnd': unreferenced local variable
+  Generating Code...
+D:\OP\Backup Windows150\6DOFPCM\6DOFPCM\6DOFPCM\LA01Dlg.cpp(436): warning C4715: 'CLA01Dlg::LA01_Speed': not all control paths return a value
+D:\OP\Backup Windows150\6DOFPCM\6DOFPCM\6DOFPCM\LA01Dlg.cpp(384): warning C4715: 'CLA01Dlg::PM_Speed': not all control paths return a value
+D:\OP\Backup Windows150\6DOFPCM\6DOFPCM\6DOFPCM\EET03Dlg.cpp(310): warning C4715: 'CEET03Dlg::Select_PM_Speed': not all control paths return a value
+D:\OP\Backup Windows150\6DOFPCM\6DOFPCM\6DOFPCM\EET02Dlg.cpp(471): warning C4715: 'CEET02Dlg::Select_PM_Speed': not all control paths return a value
+D:\OP\Backup Windows150\6DOFPCM\6DOFPCM\6DOFPCM\EET02Dlg.cpp(758): warning C4715: 'CEET02Dlg::LA02_Speed': not all control paths return a value
+D:\OP\Backup Windows150\6DOFPCM\6DOFPCM\6DOFPCM\6DOFPCMView.cpp(136): warning C4717: 'C6DOFPCMView::OnShowWindow': recursive on all control paths, function will cause runtime stack overflow
+  LINK : D:\OP\Backup Windows150\6DOFPCM\6DOFPCM\Debug\6DOFPCM.exe not found or not built by the last incremental link; performing full link
+  6DOFPCM.vcxproj -> D:\OP\Backup Windows150\6DOFPCM\6DOFPCM\Debug\6DOFPCM.exe

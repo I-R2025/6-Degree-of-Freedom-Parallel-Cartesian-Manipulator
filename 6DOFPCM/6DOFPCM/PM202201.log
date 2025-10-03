@@ -1,0 +1,98 @@
+2022-01-05	01:55	Log File Generated
+2022-01-05	01:55	INFO: PM moved to Parking Location
+2022-01-05	01:55	INFO: Homing routine for LA1 has been loaded to Master controller
+2022-01-05	01:56	INFO: Homing routine for LA2 has been loaded to Master controller
+2022-01-05	01:56	INFO: Homing routine for LA3 has been loaded to Master controller
+2022-01-05	01:58	INFO: Homing routine for CTC has been loaded to Master controller
+2022-01-05	01:59	INFO: Homing Successful, RA01 ready to perform defueling operation
+2022-01-05	03:43	INFO: PM Disconnected
+2022-01-05	03:43	INFO: Host DisConnected to all the controllers
+2022-01-05	03:43	INFO: Successfully Closed all communications: Now Exit -> 
+2022-01-05	03:43	INFO: Controllers are successfully disconnected
+2022-01-05	03:43	INFO: Operator	ashfaq	Sign Out
+2022-01-05	03:57	INFO: Operator	ashfaq	Log In
+2022-01-05	03:58	INFO: PM Connected
+2022-01-05	03:58	INFO: LA Connected
+2022-01-05	03:58	INFO: EET Connected
+2022-01-05	03:58	INFO: Host Connected to all the controllers
+2022-01-05	03:58	INFO: Input Configuration Successful
+2022-01-05	03:58	INFO: Connection Successful, RA01 ready to Home
+2022-01-05	03:59	INFO: PM Homing routine has been loaded to Master controller
+2022-01-05	03:59	INFO: PM moved to Parking Location
+2022-01-05	03:59	INFO: Homing routine for LA1 has been loaded to Master controller
+2022-01-05	04:00	INFO: Homing routine for LA2 has been loaded to Master controller
+2022-01-05	04:00	INFO: Homing routine for LA3 has been loaded to Master controller
+2022-01-05	04:01	INFO: Homing routine for CTC has been loaded to Master controller
+2022-01-05	04:02	ERROR: Master Device not Enabled
+2022-01-05	04:02	ERROR: Synchronize motion testing not successful
+2022-01-05	04:02	ERROR: Homing not successful
+2022-01-05	04:04	INFO: PM Moved to the Selected Fuel Location
+2022-01-05	04:07	ERROR: Perform Homing and Testing Operation first
+2022-01-05	04:07	ERROR: Perform Homing and Testing Operation first
+2022-01-05	04:07	ERROR: Perform Homing and Testing Operation first
+2022-01-05	04:07	INFO: PM Disconnected
+2022-01-05	04:07	INFO: Host DisConnected to all the controllers
+2022-01-05	04:07	INFO: Successfully Closed all communications: Now Exit -> 
+2022-01-05	04:07	INFO: Controllers are successfully disconnected
+2022-01-05	04:08	INFO: Operator	Log In
+2022-01-05	04:08	ERROR: Unable to move; while Not Configured
+2022-01-05	04:08	ERROR: PM not ready to move
+2022-01-05	04:08	ERROR: Unable to move; while Not Configured
+2022-01-05	04:08	ERROR: PM not ready to move
+2022-01-05	04:08	INFO: Operator	Sign Out
+2022-01-05	04:08	INFO: Operator	Log In
+2022-01-05	04:08	INFO: PM Connected
+2022-01-05	04:08	INFO: LA Connected
+2022-01-05	04:08	INFO: EET Connected
+2022-01-05	04:08	INFO: Host Connected to all the controllers
+2022-01-05	04:08	INFO: Input Configuration Successful
+2022-01-05	04:08	INFO: Connection Successful, RA01 ready to Home
+2022-01-05	04:09	INFO: PM Disconnected
+2022-01-05	04:09	INFO: Host DisConnected to all the controllers
+2022-01-05	04:09	INFO: Successfully Closed all communications: Now Exit -> 
+2022-01-05	04:09	INFO: Controllers are successfully disconnected
+2022-01-05	04:09	ERROR: Setting enable state of CTC controller failed
+2022-01-05	04:09	ERROR: Unable to move CTC to safe limit
+2022-01-05	04:09	ERROR: Unable to Disconnect Controllers
+2022-01-05	04:09	INFO: Operator	Sign Out
+2022-01-05	04:10	INFO: Operator	Log In
+2022-01-05	04:10	INFO: PM Connected
+2022-01-05	04:10	INFO: LA Connected
+2022-01-05	04:10	INFO: EET Connected
+2022-01-05	04:10	INFO: Host Connected to all the controllers
+2022-01-05	04:10	INFO: Input Configuration Successful
+2022-01-05	04:10	INFO: Connection Successful, RA01 ready to Home
+2022-01-05	04:10	INFO: PM Homing routine has been loaded to Master controller
+2022-01-05	04:11	INFO: PM moved to Parking Location
+2022-01-05	04:11	INFO: Homing routine for LA1 has been loaded to Master controller
+2022-01-05	04:11	INFO: Homing routine for LA2 has been loaded to Master controller
+2022-01-05	04:12	INFO: Homing routine for LA3 has been loaded to Master controller
+2022-01-05	04:15	INFO: Homing routine for CTC has been loaded to Master controller
+2022-01-05	04:16	INFO: Homing Successful, RA01 ready to perform defueling operation
+2022-01-05	04:44	INFO: PM Moved to the Selected Fuel Location
+2022-01-05	04:45	INFO: ELAC1 moved in Current mode
+2022-01-05	04:46	INFO: PM Moved to the Selected Fuel Location
+2022-01-05	04:48	INFO: Linear Actuator 2 moved in Current mode
+2022-01-05	04:48	ERROR: Unable to set Enable State
+2022-01-05	04:48	ERROR: Unable to set Enable State
+2022-01-05	04:48	ERROR: Unable to set Enable State
+2022-01-05	04:50	INFO: PM Moved to the Selected Fuel Location
+2022-01-05	04:51	OK: ET2 moved in Current mode
+2022-01-05	04:52	Error: Master Device not Enabled
+2022-01-05	04:59	INFO: PM Disconnected
+2022-01-05	04:59	INFO: Host DisConnected to all the controllers
+2022-01-05	04:59	INFO: Successfully Closed all communications: Now Exit -> 
+2022-01-05	04:59	INFO: Controllers are successfully disconnected
+2022-01-05	05:00	INFO: Operator	Sign Out
+2022-01-05	05:00	INFO: Operator	Log In
+2022-01-05	05:00	INFO: PM Connected
+2022-01-05	05:00	INFO: LA Connected
+2022-01-05	05:00	INFO: EET Connected
+2022-01-05	05:00	INFO: Host Connected to all the controllers
+2022-01-05	05:00	INFO: Input Configuration Successful
+2022-01-05	05:00	INFO: Connection Successful, RA01 ready to Home
+2022-01-05	05:01	INFO: PM Disconnected
+2022-01-05	05:01	INFO: Host DisConnected to all the controllers
+2022-01-05	05:01	INFO: Successfully Closed all communications: Now Exit -> 
+2022-01-05	05:01	INFO: Controllers are successfully disconnected
+2022-01-05	05:01	INFO: Operator	Sign Out

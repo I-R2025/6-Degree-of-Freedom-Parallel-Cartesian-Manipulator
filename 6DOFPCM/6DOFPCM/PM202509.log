@@ -1,0 +1,85 @@
+2025-09-27	15:30	Log File Generated
+2025-09-27	15:30	INFO: Operator	ms.a	Log In
+2025-09-27	15:40	INFO: Operator	ms.a	Log In
+2025-09-27	15:41	ERROR: Unable to set CTC operation mode to profile position mode
+2025-09-27	15:41	ERROR: Unable to move CTC to safe limit
+2025-09-27	15:41	ERROR: Unable to Disconnect Controllers
+2025-09-27	15:53	INFO: Operator	ms.a	Log In
+2025-09-27	15:53	ERROR: Unable to set CTC operation mode to profile position mode
+2025-09-27	15:53	ERROR: Unable to move CTC to safe limit
+2025-09-27	15:53	ERROR: Unable to Disconnect Controllers
+2025-09-27	15:53	INFO: EET Connected
+2025-09-27	15:53	ERROR: Unable to get fault state of Master controller
+2025-09-27	15:53	E: Controller is in Fault State
+2025-09-27	15:53	ERROR: Connection not successful
+2025-09-27	15:53	ERROR: Unable to set CTC operation mode to profile position mode
+2025-09-27	15:53	ERROR: Unable to move CTC to safe limit
+2025-09-27	15:53	ERROR: Unable to Disconnect Controllers
+2025-09-27	15:54	INFO: Operator	ms.a	Log In
+2025-09-27	15:54	ERROR: Unable to establish RS232 communication
+2025-09-27	15:54	essfully Closed all communications: Now Exit -> : PM Connection failed
+2025-09-27	15:54	ERROR: Connection not successful
+2025-09-27	16:06	INFO: Operator	ms.a	Log In
+2025-09-27	16:06	ERROR: Unable to establish RS232 communication
+2025-09-27	16:06	essfully Closed all communications: Now Exit -> : PM Connection failed
+2025-09-27	16:06	ERROR: Connection not successful
+2025-09-27	16:18	INFO: Operator	ms.a	Log In
+2025-09-27	16:18	ERROR: Unable to establish RS232 communication
+2025-09-27	16:18	essfully Closed all communications: Now Exit -> : PM Connection failed
+2025-09-27	16:18	ERROR: Connection not successful
+2025-09-27	16:26	INFO: Operator	ms.a	Log In
+2025-09-27	16:26	ERROR: Unable to establish RS232 communication
+2025-09-27	16:26	essfully Closed all communications: Now Exit -> : PM Connection failed
+2025-09-27	16:26	ERROR: Connection not successful
+2025-09-27	16:28	INFO: Operator	ms.a	Log In
+2025-09-27	16:28	ERROR: Unable to establish RS232 communication
+2025-09-27	16:28	essfully Closed all communications: Now Exit -> : PM Connection failed
+2025-09-27	16:28	ERROR: Connection not successful
+2025-09-27	16:30	INFO: Operator	ms.a	Log In
+2025-09-27	16:30	ERROR: Unable to establish RS232 communication
+2025-09-27	16:30	essfully Closed all communications: Now Exit -> : PM Connection failed
+2025-09-27	16:30	ERROR: Connection not successful
+2025-09-27	16:30	ERROR: Incorrect Password
+2025-09-27	16:47	INFO: Operator	ms.a	Log In
+2025-09-27	16:47	ERROR: Unable to establish RS232 communication
+2025-09-27	16:47	essfully Closed all communications: Now Exit -> : PM Connection failed
+2025-09-27	16:47	ERROR: Connection not successful
+2025-09-27	20:24	INFO: Operator	ms.a	Log In
+2025-09-27	20:24	ERROR: Unable to establish RS232 communication
+2025-09-27	20:24	essfully Closed all communications: Now Exit -> : PM Connection failed
+2025-09-27	20:24	ERROR: Connection not successful
+2025-09-27	20:29	INFO: Operator	ms.a	Log In
+2025-09-27	20:29	ERROR: Unable to establish RS232 communication
+2025-09-27	20:29	essfully Closed all communications: Now Exit -> : PM Connection failed
+2025-09-27	20:29	ERROR: Connection not successful
+2025-09-27	20:31	INFO: Operator	ms.a	Log In
+2025-09-27	20:32	ERROR: Unable to establish RS232 communication
+2025-09-27	20:32	essfully Closed all communications: Now Exit -> : PM Connection failed
+2025-09-27	20:32	ERROR: Connection not successful
+2025-09-27	20:33	INFO: Operator	ms.a	Log In
+2025-09-27	20:33	ERROR: Unable to establish RS232 communication
+2025-09-27	20:33	essfully Closed all communications: Now Exit -> : PM Connection failed
+2025-09-27	20:33	ERROR: Connection not successful
+2025-09-27	20:36	INFO: Operator	ms.a	Log In
+2025-09-27	20:36	ERROR: Unable to establish RS232 communication
+2025-09-27	20:36	essfully Closed all communications: Now Exit -> : PM Connection failed
+2025-09-27	20:36	ERROR: Connection not successful
+2025-09-27	20:40	INFO: Operator	ms.a	Log In
+2025-09-27	20:40	ERROR: Unable to establish RS232 communication
+2025-09-27	20:40	essfully Closed all communications: Now Exit -> : PM Connection failed
+2025-09-27	20:40	ERROR: Connection not successful
+2025-09-27	20:42	INFO: Operator	ms.a	Log In
+2025-09-27	20:42	ERROR: Unable to establish RS232 communication
+2025-09-27	20:42	essfully Closed all communications: Now Exit -> : PM Connection failed
+2025-09-27	20:42	ERROR: Connection not successful
+2025-09-27	20:44	INFO: Operator	ms.a	Log In
+2025-09-27	20:44	ERROR: Unable to establish RS232 communication
+2025-09-27	20:44	essfully Closed all communications: Now Exit -> : PM Connection failed
+2025-09-27	20:44	ERROR: Connection not successful
+2025-09-27	20:44	ERROR: Unable to set master encoder mode of ELAC2
+2025-09-27	20:44	ERROR: Unable to set operation mode of ETC2 Profile Position Mode
+2025-09-27	20:44	ERROR: Inputs and Outputs are not configured: Connect All failed
+2025-09-27	21:08	INFO: Operator	ms.a	Log In
+2025-09-27	21:08	ERROR: Unable to establish RS232 communication
+2025-09-27	21:08	essfully Closed all communications: Now Exit -> : PM Connection failed
+2025-09-27	21:08	ERROR: Connection not successful
