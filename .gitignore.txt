@@ -1,0 +1,21 @@
+# Ignore binaries and build files
+*.exe
+*.dll
+*.pdb
+*.log
+*.sdf
+*.VC.db
+*.user
+*.aps
+
+# Ignore build output folders
+Debug/
+Release/
+
+# Ignore Visual Studio specific folders
+ipch/
+.vs/
+
+# Ignore temporary files
+*.tmp
+*.cache
