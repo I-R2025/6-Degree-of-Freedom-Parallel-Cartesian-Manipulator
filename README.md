@@ -1,6 +1,11 @@
 # 6-Degree-of-Freedom-Parallel-Cartesian-Manipulator
 This project implements a control system for a 6-DOF Cartesian Parallel Manipulator, developed using Visual Studio’s SDI interface and driven by Maxon EPOS controllers with DC motors. The system is designed for high-precision automation tasks such as nut and bolt handling and operates over a 2D grid from 1A to 37X.
 
+![Alt text](6DOFPCM/6DOFPCM/res/NutsLoc.bmp)
+
+Login Screen
+
+![Alt text](6DOFPCM/6DOFPCM/res/Login.png)
 🔧 System Overview
 Degrees of Freedom: 6 DOF
 Movement: X and Y axes on grid form (1A to 37) Controlled by EPOS-driven DC motors
@@ -10,19 +15,20 @@ Limit Switches: Installed on all axes to restrict motion range
 Positions: 1A to 37X
 Home Position: Grid position 1A
 Parking Position: Grid position 4P
+![Alt text](6DOFPCM/6DOFPCM/res/X-Y Grid.png)
 
 1. Linear Actuator 1 connected with End Effector Tool 1(EET1)– Passive Tool Holder
 EET1: Holds counterpart of tool using two fingers shaped Passive Tool Holder
 Operation: At specific (x-y) location moves in Z-axis to connect the holding tool, with its counterpart. Torque feedback is continoulsy monitored and the motion in z axis is stopeed as the torque reaches certain threshhold.
-
+![Alt text](6DOFPCM/6DOFPCM/res/LA1.png)
 2. Linear Actuator 2 connected with End Effector Tool 1(EET2) – Super Socket (Active Tool an extra axis(drive) is added to rotate the socket CW and CCW)
 EET2: Encapsulates the nut in it and then rotates to tighten the nut
 Operation:  At specific (x-y) location moves in Z-axis to encapsulates the nut. Torque feedback of EET2 rotation drive is continoulsy monitored and its CCW rotation is stopeed as the torque reaches certain threshhold.
-
+![Alt text](6DOFPCM/6DOFPCM/res/LA2.png)
 3. Linear Actuator 3 connected with gripper (EET3)- it grips and rotates
 EET3: Securely grips a nut and rotates clockwise (CW) to fasten it with 25 turns.
 Operation: At a specified (X, Y) grid location, Linear Actuator 3 moves downward along the Z-axis until the nut is positioned inside the gripper. The gripper then closes to securely hold the nut. Once clamped, the gripper begins rotating counterclockwise (CCW) while simultaneously moving upward. This synchronized motion between the gripper rotation and Linear Actuator 3's Z-axis movement is controlled using the EPOS Master Encoder Mode. Position feedback from Linear Actuator 3 is continuously monitored to precisely stop the operation at the predefined endpoint. To prevent cable entanglement during rotation, a Moflon slip ring module is integrated, ensuring safe and uninterrupted electrical connectivity.
-
+![Alt text](6DOFPCM/6DOFPCM/res/LA3.png)
 ### 📁 Project Organization
 
 ```text
